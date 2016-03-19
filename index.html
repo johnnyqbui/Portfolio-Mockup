@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:100,300,400,500' rel='stylesheet'>
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-md-6">
+          <img class="title-logo" src="images/udacity-logo.png" alt="Udacity logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title-name text-thinner">Johnny Bui</h1>
+          <h4 class="subtitle-name text-thin">Front-end Samurai</h4>
+        </div>
+      </header>
+      <!--Horizontal Line-->
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <main class="row">
+        <figure class="col-md-12">
+          <img class="img-responsive img-transition"
+          srcset="images/sunrise-cropped320.jpg 320w,
+          images/sunrise-cropped600.jpg 600w,
+          images/sunrise-cropped900.jpg 900w,
+          images/sunrise-cropped1200.jpg 1200w,
+          images/sunrise-cropped1600.jpg 1600w"
+          sizes="(min-width: 300px) 100vw"
+          src="images/sunrise-cropped1200.jpg"
+          alt="Sunrise across river">
+        </figure>
+      </main>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="featured-text">Featured Work</h2>
+        </div>
+      </div>
+      <section class="row text-center disappear">
+        <figure class="col-md-4">
+          <img class="img-responsive img-transition img-min"
+          srcset="images/sky-cropped320.jpg 320w,
+          images/sky-cropped600.jpg 600w,
+          images/sky-cropped1200.jpg 1200w,
+          images/sky-cropped1600.jpg 1600w"
+          sizes="(min-width: 1200px) 600px,
+          (min-width: 992px) 320px,
+          (min-width: 454px) 65vw,
+          (min-width: 320px) 85vw"
+          src="images/sky-cropped1200.jpg" alt="Sky view above clouds" data-toggle="modal" data-target="#Sky">
+          <h3 class="text-uppercase content-text">Sky</h3>
+          <h5 class="link-text">https://github.com/johnnyqbui/sky/</h5>
+        </figure>
+        <figure class="col-md-4">
+          <img class="img-responsive img-transition img-min"
+          srcset="images/aurora-cropped320.jpg 320w,
+          images/aurora-cropped600.jpg 600w,
+          images/aurora-cropped1200.jpg 1200w,
+          images/aurora-cropped1600.jpg 1600w"
+          sizes="(min-width: 1200px) 600px,
+          (min-width: 992px) 320px,
+          (min-width: 454px) 65vw,
+          (min-width: 320px) 85vw"
+          src="images/aurora-cropped1200.jpg" alt="Aurora above snowy landscape" data-toggle="modal" data-target="#Aurora">
+          <h3 class="text-uppercase content-text">Aurora</h3>
+          <h5 class="link-text">https://github.com/johnnyqbui/aurora/</h5>
+        </figure>
+        <figure class="col-md-4">
+          <img class="img-responsive img-transition img-min"
+          srcset="images/nightsky-cropped320.jpg 320w,
+          images/nightsky-cropped600.jpg 600w,
+          images/nightsky-cropped1200.jpg 1200w,
+          images/nightsky-cropped1600.jpg 1600w"
+          sizes="(min-width: 1200px) 600px,
+          (min-width: 992px) 320px,
+          (min-width: 454px) 65vw,
+          (min-width: 320px) 85vw"
+          src="images/nightsky-cropped1200.jpg" alt="Starry night" data-toggle="modal" data-target="#Night">
+          <h3 class="text-uppercase content-text">Night</h3>
+          <h5 class="link-text">https://github.com/johnnyqbui/night/</h5>
+        </figure>
+      </section>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="Sky" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img class="img-responsive img-transition img-full"
+            srcset="images/sky-cropped320.jpg 320w,
+            images/sky-cropped600.jpg 600w,
+            images/sky-cropped1200.jpg 1200w,
+            images/sky-cropped1600.jpg 1600w"
+            sizes="(min-width: 1200px) 600px,
+            (min-width: 992px) 320px,
+            (min-width: 454px) 65vw,
+            (min-width: 320px) 85vw"
+            src="images/sky-cropped600.jpg"
+            alt="Sky view above clouds">
+            <h3 class="modal-text text-uppercase content-text">Project Sky</h3>
+            <p>I have learned a bunch about html, css, and responsive images! I am looking forward to learning more about the world of web development!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="Aurora" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img class="img-responsive img-transition img-full"
+            srcset="images/aurora-cropped320.jpg 320w,
+            images/aurora-cropped600.jpg 600w,
+            images/aurora-cropped1200.jpg 1200w,
+            images/aurora-cropped1600.jpg 1600w"
+            sizes="(min-width: 1200px) 600px,
+            (min-width: 992px) 320px,
+            (min-width: 454px) 65vw,
+            (min-width: 320px) 85vw"
+            src="images/aurora-cropped600.jpg"
+            alt="Aurora above snowy landscape">
+            <h3 class="modal-text text-uppercase content-text">Project Aurora</h3>
+            <p>I have learned a bunch about html, css, and responsive images! I am looking forward to learning more about the world of web development!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="Night" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img class="img-responsive img-transition img-full"
+            srcset="images/nightsky-cropped320.jpg 320w,
+            images/nightsky-cropped600.jpg 600w,
+            images/nightsky-cropped1200.jpg 1200w,
+            images/nightsky-cropped1600.jpg 1600w"
+            sizes="(min-width: 1200px) 600px,
+            (min-width: 992px) 320px,
+            (min-width: 454px) 65vw,
+            (min-width: 320px) 85vw"
+            src="images/nightsky-cropped600.jpg"
+            alt="Starry night">
+            <h3 class="modal-text text-uppercase content-text">Project Night</h3>
+            <p>I have learned a bunch about html, css, and responsive images! I am looking forward to learning more about the world of web development!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Collpsable Images-->
+    <div class="panel-group text-center" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="btn btn-default btn-text" data-target="#collapseOne">Project Sky</a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body text-center">
+            <img class="img-responsive img-transition"
+            srcset="images/sky-cropped320.jpg 320w,
+            images/sky-cropped600.jpg 600w,
+            images/sky-cropped1200.jpg 1200w,
+            images/sky-cropped1600.jpg 1600w"
+            sizes="(min-width: 1200px) 600px,
+            (min-width: 992px) 320px,
+            (min-width: 454px) 65vw,
+            (min-width: 300px) 85vw"
+            src="images/sky-cropped600.jpg" alt="Sky view above clouds" data-toggle="modal" data-target="#Sky">
+            <h3 class="text-uppercase content-text">Sky</h3>
+            <h5 class="link-text">https://github.com/johnnyqbui/sky/</h5>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="btn btn-default btn-text" data-target="#collapseTwo">Project Aurora</a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body text-center">
+            <img class="img-responsive img-transition"
+            srcset="images/aurora-cropped320.jpg 320w,
+            images/aurora-cropped600.jpg 600w,
+            images/aurora-cropped1200.jpg 1200w,
+            images/aurora-cropped1600.jpg 1600w"
+            sizes="(min-width: 1200px) 600px,
+            (min-width: 992px) 320px,
+            (min-width: 454px) 65vw,
+            (min-width: 300px) 85vw"
+            src="images/aurora-cropped1200.jpg" alt="Aurora above snowy landscape" data-toggle="modal" data-target="#Aurora">
+            <h3 class="text-uppercase content-text">Aurora</h3>
+            <h5 class="link-text">https://github.com/johnnyqbui/aurora/</h5>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-default btn-text" data-target="#collapseThree">Project Night</a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body text-center">
+            <img class="img-responsive img-transition"
+            srcset="images/nightsky-cropped320.jpg 320w,
+            images/nightsky-cropped600.jpg 600w,
+            images/nightsky-cropped1200.jpg 1200w,
+            images/nightsky-cropped1600.jpg 1600w"
+            sizes="(min-width: 1200px) 600px,
+            (min-width: 992px) 320px,
+            (min-width: 454px) 65vw,
+            (min-width: 300px) 85vw"
+            src="images/nightsky-cropped1200.jpg" alt="Starry night" data-toggle="modal" data-target="#Night">
+            <h3 class="text-uppercase content-text">Night</h3>
+            <h5 class="link-text">https://github.com/johnnyqbui/night/</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
